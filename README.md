@@ -1,6 +1,7 @@
-// Quick Start
+### Quick Start
 
-vscode extension: flutter
+```
+Install vscode extension: flutter
 
 >Flutter: New Project
 Download SDK
@@ -16,23 +17,27 @@ Download SDK
 	Edge
 
 Run > Start Debugging or press F5
+```
 
 -----------------------------
 
 
-// Publish Web
-flutter build web --release
+### Publish Web
+`flutter build web --release`
 
-// set web root path
-flutter build web --release --base-href "/web/"
+### Set Web Root Path
 
+`flutter build web --release --base-href "/web/"`
+> copy build/web to nginx serve directory,
+>
+> browse http://localhost/web
 
 
 
 ---------------------------------
 
 
-# flutter_application_1
+# Flutter Examples
 
 A new Flutter project.
 
