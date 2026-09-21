@@ -24,11 +24,14 @@ Run > Start Debugging or press F5
 
 ### Publish Web
 `flutter build web --release`
+> copy build/web/* content to nginx web root directory,
+>
+> browse http://localhost/
 
 ### Set Web Root Path
 
 `flutter build web --release --base-href "/web/"`
-> copy build/web to nginx serve directory,
+> copy build/web directory to nginx web root directory,
 >
 > browse http://localhost/web
 
